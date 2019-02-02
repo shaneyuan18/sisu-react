@@ -4,7 +4,9 @@
   "description": "This demo react components for SISU.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack -d --watch",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -33,5 +35,8 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
