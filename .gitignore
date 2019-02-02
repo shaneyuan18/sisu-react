@@ -1,0 +1,5 @@
+## MAC files ##
+.DS_Store
+
+## NPM ##
+node_modules/
