@@ -1,0 +1,9 @@
+.dropdown:hover div {
+    display: block;
+}
+
+.toggle, .toggle:hover{
+    background-color: white;
+    border-color: white;
+    color: grey;
+}

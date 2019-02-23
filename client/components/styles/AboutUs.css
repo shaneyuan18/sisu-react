@@ -1,0 +1,25 @@
+.aboutUs {
+    margin: 0 auto;
+    padding: 40px 100px;
+    width: 750px;
+    text-align: center;
+}
+
+.aboutUs > div {
+    margin: 50px 0;
+}
+
+.aboutUs h2 {
+    color: plum;
+    padding: 10px 0;
+    font-size: 40px;
+}
+
+.aboutUs img {
+    width: 90%;
+}
+
+.aboutUs p {
+    font-size: 24px;
+    margin: 0 -100px;
+}

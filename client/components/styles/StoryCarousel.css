@@ -1,0 +1,51 @@
+.storyCarousel a {
+    width: 5%;
+}
+
+.storyCarouselBlur {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(128, 0, 128, 0.65);
+}
+
+.storyCarouselItem {
+    height: 800px;
+}
+
+.storyCarouselItem img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.storyCarouselCaption {
+    position: absolute;
+    top: 10%;
+    /* left: 15%; */
+    z-index: 10;
+    padding: 20px;
+    text-align: left;
+}
+
+.storyCarouselCaption {
+    width: 45%;
+    left: 4%;
+}
+
+.storyCarouselCaption p {
+    color: rgb(167, 165, 165);
+    font-size: 32px;
+}
+
+.storyCarouselCaption > h3 {
+    color: yellow;
+    font-size: 40px;
+}
+
+.storyCarouselCaption > h1 {
+    color: white;
+    font-size: 110px;
+}
